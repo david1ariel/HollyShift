@@ -1,0 +1,26 @@
+.set-shift-hours, .set-shifts-calendar {
+  text-align: right;
+  margin-right: 20px;
+}
+
+input
+{
+  margin: 8px;
+}
+
+input[type=number]{
+  width: 50px;
+}
+
+.mat-tab-group {
+  margin-bottom: 48px;
+}
+
+.btn-edit-shift{
+  color: rgb(25, 219, 208);
+  cursor: pointer;
+}
+
+input{
+  margin: 0;
+}

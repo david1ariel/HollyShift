@@ -1,0 +1,82 @@
+<div cdkDropListGroup>
+  <div class="example-container">
+
+    <div cdkDropList cdkDropListOrientation="horizontal" [cdkDropListData]="employeesCopy"
+      class="example-list-horizontal" (cdkDropListDropped)="drop($event)" (cdkDropExited)="exited($event)">
+      <div class="example-box" *ngFor="let item of employeesCopy" cdkDrag [cdkDragData]="item">
+        <div class="emp-container">
+          <img [src]=item.imageFileName>
+          <div class="emp-name">
+            {{item.firstName}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div [hidden]="!isShowBin">
+    <div class="example-container">
+      <h2>סל מחזור</h2>
+
+      <div cdkDropList [cdkDropListData]="deleted" class="example-list" (cdkDropListDropped)="drop($event)">
+        <div class="example-box"></div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div ngClass="table-container">
+    <table *ngIf="employeesPerShiftTypesForWeek" ngClass="table">
+
+      <tr ngClass="no-border-tr">
+        <th ngClass="noBorder"></th>
+        <th *ngFor="let item of employeesPerShiftTypesForWeek[0]">
+          {{item.shift.startTime | date :'EEEE' : undefined : 'he'}}<br>
+          {{item.shift.startTime | hebWeekDay}}<br>
+        </th>
+      </tr>
+
+      <tr *ngFor="let item of [].constructor(relevantShiftTypes.length); let i = index">
+        <th ngClass="noBorder">{{relevantShiftTypes[i].typeTitle}}</th>
+        <ng-container *ngFor="let item of employeesPerShiftTypesForWeek[i]; index as j">
+          <td>
+            <div *ngIf="employeesPerShiftTypesForWeek" cdkDropList
+              [cdkDropListData]="employeesPerShiftTypesForWeek[i][j].employees" class="example-list"
+              (cdkDropListDropped)="drop($event, i, j)">
+              <div class="example-box">
+                <div *ngFor="let emp of employeesPerShiftTypesForWeek[i][j].employees" cdkDrag
+                (mousedown)="dragStarted()" (cdkDragEnded)="dragEnded()">
+                <div class="emp-container">
+                  <img [src]=emp.imageFileName>
+                  <div class="emp-name">
+                    {{emp.firstName}}
+                  </div>
+                </div>
+              </div>
+              </div>
+
+            </div>
+          </td>
+        </ng-container>
+      </tr>
+
+    </table>
+
+    <div ngClass="browsing-buttons">
+      <div ngClass="prevous-button">
+        <button (click)="showPrevousWeek()">שבוע קודם</button>
+      </div>
+      <div ngClass="next-button">
+        <button (click)="showNextWeek()">שבוע הבא</button>
+      </div>
+    </div>
+
+  </div>
+
+  <button mat-raised-button ngClass="submitButton" (click)="initializeProposedEmployeesPerShiftsPerTypesForWeek()">קבל הצעה לסידור עבודה</button>
+  <button mat-raised-button ngClass="submitButton" (click)="submitSchedule()">שמור העדפות</button>
+  <button mat-raised-button ngClass="clearButton" (click)="clear()">נקה העדפות</button>
+
+
+</div>

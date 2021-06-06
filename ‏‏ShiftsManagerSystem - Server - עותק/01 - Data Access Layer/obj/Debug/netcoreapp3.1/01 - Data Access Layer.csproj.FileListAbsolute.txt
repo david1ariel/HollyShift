@@ -1,0 +1,65 @@
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.deps.json
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.runtimeconfig.json
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.runtimeconfig.dev.json
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.csprojAssemblyReference.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.AssemblyInfo.cs
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.genruntimeconfig.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\01 - Data Access Layer\obj\Debug\netcoreapp3.1\EFCorePluralizer.cs
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.csprojAssemblyReference.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.AssemblyInfo.cs
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\01 - Data Access Layer\obj\Debug\netcoreapp3.1\EFCorePluralizer.cs
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.deps.json
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.runtimeconfig.json
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.runtimeconfig.dev.json
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.genruntimeconfig.cache
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.deps.json
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.runtimeconfig.json
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.runtimeconfig.dev.json
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.csprojAssemblyReference.cache
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.AssemblyInfoInputs.cache
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.AssemblyInfo.cs
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\obj\Debug\netcoreapp3.1\EFCorePluralizer.cs
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.genruntimeconfig.cache
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.deps.json
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.runtimeconfig.json
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.runtimeconfig.dev.json
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.csprojAssemblyReference.cache
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.AssemblyInfoInputs.cache
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.AssemblyInfo.cs
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\obj\Debug\netcoreapp3.1\EFCorePluralizer.cs
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.genruntimeconfig.cache
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.deps.json
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.runtimeconfig.json
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.runtimeconfig.dev.json
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\01 - Data Access Layer\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.AssemblyInfoInputs.cache
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.AssemblyInfo.cs
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\01 - Data Access Layer\obj\Debug\netcoreapp3.1\EFCorePluralizer.cs
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.genruntimeconfig.cache
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\01 - Data Access Layer\obj\Debug\netcoreapp3.1\01 - Data Access Layer.csprojAssemblyReference.cache

@@ -1,0 +1,53 @@
+<!-- <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+    <button mat-menu-item routerLink="/home" routerLinkActive="active">Home</button>
+    <button mat-menu-item routerLink="/about" routerLinkActive="active">About</button>
+    <button *ngIf="employee?.role==='admin'" mat-menu-item routerLink="/admin/add-business"
+        routerLinkActive="active">Add New Business</button>
+    <button *ngIf="employee?.role==='admin'||employee?.role==='manager'" mat-menu-item routerLink="/employees"
+        routerLinkActive="active">Employees</button>
+    <button *ngIf="employee?.role==='admin'||employee?.role==='manager'" mat-menu-item routerLink="/employees/new"
+        routerLinkActive="active">Add Employee</button>
+    <button *ngIf="employee" mat-menu-item routerLink="/employees/edit/{{employee.employeeId}}"
+        routerLinkActive="active">Edit My Profile</button>
+    <button *ngIf="!employee" mat-menu-item routerLink="/login" routerLinkActive="active">LogIn</button>
+    <button *ngIf="employee" mat-menu-item routerLink="/logout" routerLinkActive="active">LogOut</button>
+</mat-menu> -->
+
+<div class="menu-container">
+  <span>{{greetings()}}</span>
+<br>
+<span *ngIf="employee.lastLoginDate">כניסתך האחרונה: </span>
+<br>
+<span *ngIf="employee.lastLoginDate">{{this.employee.lastLoginDate|hebWeekDay}}</span>
+<hr>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <a routerLink="/home" routerLinkActive="activeA" *ngIf="employee?.role==='admin'||employee?.role==='manager'">דף הבית</a>
+  <br *ngIf="employee?.role==='admin'||employee?.role==='manager'">
+  <br *ngIf="employee?.role==='admin'||employee?.role==='manager'">
+  <a routerLink="/business-settings" routerLinkActive="activeA" *ngIf="employee?.role==='admin'">הגדרות עסק</a>
+  <br *ngIf="employee?.role==='admin'">
+  <br *ngIf="employee?.role==='admin'">
+  <a routerLink="/work-schedule" routerLinkActive="activeA" *ngIf="employee?.role==='admin'||employee?.role==='manager'">סידור עבודה</a>
+  <br *ngIf="employee?.role==='admin'||employee?.role==='manager'">
+  <br *ngIf="employee?.role==='admin'||employee?.role==='manager'">
+  <a routerLink="/employees" routerLinkActive="activeA" *ngIf="employee?.role==='admin'||employee?.role==='manager'">ניהול עובדים</a>
+  <br *ngIf="employee?.role==='admin'||employee?.role==='manager'">
+  <br *ngIf="employee?.role==='admin'||employee?.role==='manager'">
+  <a *ngIf="employee" routerLink="/submit-shifts" routerLinkActive="active">הגשת משמרות</a>
+  <br *ngIf="employee">
+  <br *ngIf="employee">
+  <a routerLink="/employees/edit/{{employee.employeeId}}" routerLinkActive="activeA" *ngIf="employee">הגדרות פרופיל</a>
+  <br *ngIf="employee">
+  <br *ngIf="employee">
+  <a *ngIf="!employee" routerLink="/login" routerLinkActive="active">כניסה</a>
+  <br *ngIf="!employee">
+  <br *ngIf="!employee">
+  <a *ngIf="employee" routerLink="/logout" routerLinkActive="active">התנתק</a>
+  <br>
+  <br>
+</div>

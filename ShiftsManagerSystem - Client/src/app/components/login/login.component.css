@@ -1,0 +1,91 @@
+/* mat-form-field{
+    margin: 200px;
+    padding: 30px;
+} */
+
+h1{
+  font-family: varelaRound;
+  margin-top: 20px;
+  font-size:30px;
+}
+
+.btn-enter{
+  cursor: pointer;
+  color: aliceblue;
+  font-family: varelaRound;
+  font-size: xx-large;
+  background-color: rgb(25, 219, 208);
+  border: none;
+  width: 560px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+input, input:focus, input::placeholder, input:active{
+  width: 250px;
+  color: black;
+  font-family: varelaRound;
+  font-size: large;
+  border-top: none;
+  border-left: none;
+
+  border-color: rgb(25, 219, 208);
+  background-color: transparent;
+}
+
+a{
+  font-size: xx-large;
+  color: rgb(85, 85, 85);
+}
+
+.dialog-container{
+  padding: 5px;
+}
+
+.icon-close{
+  position: relative;
+  float: right;
+  cursor: pointer;
+}
+
+.icon-close :hover{
+  cursor: pointer;
+}
+
+.dialog-wrap{
+  position: relative;
+  margin-top: 40px;
+}
+
+.dialog-title{
+  margin-top: 40px;
+}
+
+.dialog-content{
+  position: relative;
+}
+
+.buttons-wrap{
+  position: relative;
+}
+
+.ok-button{
+  position: relative;
+}
+
+.mat-dialog-container{
+  padding: 0;
+}
+
+.mat-dialog-container {
+  display: block;
+  padding: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  overflow: auto;
+  outline: 0;
+  width: 100%;
+  height: 100%;
+  min-height: inherit;
+  max-height: inherit;
+}

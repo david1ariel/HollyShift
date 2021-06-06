@@ -1,0 +1,105 @@
+<div class="settings-container">
+  <br>
+  <br>
+  <br>
+  <h1>כאן תוכל לנהל את הגדרות העסק שלך</h1>
+
+  <mat-tab-group mat-align-tabs="start">
+    <mat-tab label="משמרות" *ngIf="shiftTypes">
+
+      <!-- if it's not for the first time -->
+      <div *ngIf="settings?.isCalendarSet">
+        <span>מספר משמרות מקסימלי ביום: {{settings.calendarSettingsModel.shiftsDetails.length}}</span>
+        <div *ngIf="settings?.calendarSettingsModel">
+
+          <div class="set-shift-hours"
+            *ngFor="let item of settings?.calendarSettingsModel.shiftsDetails; let i = index">
+            <br>
+            <br>
+            <div *ngIf="!isShowEditShift[i]">
+              <p>משמרת מספר {{item.nthShift}}: <span class="btn-edit-shift" (click)="toggleEditShiftAvailable(i)">ערוך</span></p>
+              <p>שם משמרת: {{item.type}}</p>
+              <p>שעת התחלה: {{item.startTime}}</p>
+              <p>שעת סיום: {{item.endTime}}</p>
+            </div>
+            <div *ngIf="isShowEditShift[i]">
+              <p><span>מספר משמרת: </span> <input type="number" min="1" [(ngModel)]="shiftToEdit.nthShift"></p>
+              <p><span>שם משמרת: </span> <input type="text" [(ngModel)]="shiftToEdit.type"></p>
+              <p><span>שעת התחלה: </span> <input type="time" [(ngModel)]="shiftToEdit.startTime"></p>
+              <p><span>שעת סיום: </span> <input type="time" [(ngModel)]="shiftToEdit.endTime"></p>
+              <div>
+                <button (click)="saveShiftChanges(i)">שמור</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button (click)="toggleAddShift()">הוספת משמרת</button>
+        </div>
+      </div>
+      <hr>
+      <br>
+
+      <div *ngIf="isShowAddShift">
+        <span>מספר משמרת: </span> <input type="number" [min]="shiftTypes.length+1" [(ngModel)]="shiftToAdd.nthShift">
+        <span>שם משמרת: </span> <input type="text" [(ngModel)]="shiftToAdd.type">
+        <span>שעת התחלה: </span> <input type="time" name="a" [(ngModel)]="shiftToAdd.startTime">
+        <span>שעת סיום: </span> <input type="time" [(ngModel)]="shiftToAdd.endTime">
+        <div>
+          <button (click)="addShift()">הוסף משמרת</button>
+        </div>
+      </div>
+      <div>
+        <input (click)="showState()" type="checkbox" name="editShiftsCalendar" [(ngModel)]="isShowCreateCalendar" />
+        <label for="editShiftsCalendar">ערוך יומן משמרות</label>
+        <div class="set-shifts-calendar" *ngIf="isShowCreateCalendar">
+          <span>יומן המשמרות הנוכחי הינו בין התאריכים: {{settings.calendarSettingsModel.calendarStartDate | date:
+            "d/M/yyyy"}} - {{settings.calendarSettingsModel.calendarEndDate | date: "d/M/yyyy"}}</span>
+          <br>
+          <span>הרחב את היומן לתאריכים:</span>
+          <br>
+          <input type="date" [(ngModel)]="calendarStartDateStr">
+          <span>עד תאריך: </span>
+          <input type="date" [(ngModel)]="calendarEndDateStr">
+        </div>
+      </div>
+      <!-- </div> -->
+
+      <!-- if it is for the first time -->
+      <div *ngIf="!settings?.isCalendarSet">
+        <span>מספר משמרות מקסימלי ביום:</span>
+        <input type="number" min="1" [(ngModel)]="settings?.calendarSettingsModel?.shiftsDetails.length" (ngModelChange)="setShiftsTimesLength()">
+        <div *ngIf="calendarSettings">
+          <div class="set-shift-hours" *ngFor="let item of calendarSettings?.shiftsDetails; let i = index">
+            <br>
+            <br>
+            <p (ngModel)="item.nthShift">משמרת מספר {{i+1}}:</p>
+            <span>שם משמרת: </span> <input type="text" [(ngModel)]="item.type">
+            <span>שעת התחלה: </span> <input type="time" [(ngModel)]="item.startTime">
+            <span>שעת סיום: </span> <input type="time" [(ngModel)]="item.endTime">
+          </div>
+        </div>
+
+
+        <br>
+
+        <div class="set-shifts-calendar" *ngIf="!settings?.isCalendarSet">
+          <span>צור יומן משמרות החל מתאריך: </span>
+          <input type="date" [(ngModel)]="calendarStartDateStr">
+          <span>עד תאריך: </span>
+          <input type="date" [ngModel]="calendarEndDateStr">
+        </div>
+
+      </div>
+      <div class="btn-submit">
+        <button type="submit" (click)="sendSettingsToServer()">החל</button>
+      </div>
+    </mat-tab>
+    <mat-tab label="ניהול עובדים">
+      <app-employees></app-employees>
+    </mat-tab>
+    <mat-tab label="סידור משמרות">
+
+    </mat-tab>
+  </mat-tab-group>
+</div>

@@ -1,0 +1,39 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: x-large;
+    direction: rtl;
+    font-family: varelaRound;;
+}
+
+@font-face {
+    src: url("assets/fonts/Oswald-VariableFont_wght.ttf");
+    font-family: Oswald;
+}
+
+@font-face {
+    src: url("assets/fonts/Ranchers-Regular.ttf");
+    font-family: Ranchers;
+}
+
+@font-face {
+  src: url("assets/fonts/VarelaRound-Regular.ttf");
+  font-family: varelaRound;
+}
+
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.custom-modal .mat-dialog-container{
+  direction: rtl;
+}
+
+

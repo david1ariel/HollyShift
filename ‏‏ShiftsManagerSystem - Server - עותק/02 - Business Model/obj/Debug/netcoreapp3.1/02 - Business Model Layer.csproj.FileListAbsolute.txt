@@ -1,0 +1,12 @@
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model Layer.deps.json
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model Layer.pdb
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csprojAssemblyReference.cache
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model Layer.AssemblyInfoInputs.cache
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model Layer.AssemblyInfo.cs
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model Layer.csproj.CopyComplete
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model Layer.dll
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model Layer.pdb

@@ -1,0 +1,144 @@
+<img src="/assets/images/gif.gif" *ngIf="!employees">
+
+
+
+<div class="add" routerLink="/employees/new" >
+  <img class="plus" src="./../../../assets/icons/material-icon-plus.png" alt="">
+  <div class="div-new-emp">
+    צור עובד חדש
+  </div>
+</div>
+<br><br>
+<!-- <div class="mat-elevation-z8">
+    <table mat-table *ngIf="employees" matSort class="mat-elevation-z8">
+
+        <ng-container matColumnDef="First name">
+            <th mat-header-cell *matHeaderCellDef> first Name </th>
+            <td *matCellDef="let employee"> {{employee.firstName}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Last Name">
+            <th mat-header-cell *matHeaderCellDef> Last Name </th>
+            <td mat-cell *matCellDef="let employee"> {{employee.lastName}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Title">
+            <th mat-header-cell *matHeaderCellDef> Title </th>
+            <td mat-cell *matCellDef="let employee"> {{employee.title}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Birth Date">
+            <th mat-header-cell *matHeaderCellDef> Birth Date </th>
+            <td mat-cell *matCellDef="let employee"> {{employee.birthDate}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Hire Date">
+            <th mat-header-cell *matHeaderCellDef> Hire Date </th>
+            <td mat-cell *matCellDef="let employee"> {{employee.hireDate}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Adress">
+            <th mat-header-cell *matHeaderCellDef> Adress </th>
+            <td mat-cell *matCellDef="let employee"> {{employee.adress}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Postal Code">
+            <th mat-header-cell *matHeaderCellDef> Postal Code </th>
+            <td mat-cell *matCellDef="let employee"> {{employee.postalCode}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Phone 1">
+            <th mat-header-cell *matHeaderCellDef> Phone 1 </th>
+            <td mat-cell *matCellDef="let employee"> {{employee.phone1}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Phone 2">
+            <th mat-header-cell *matHeaderCellDef> Phone 2 </th>
+            <td mat-cell *matCellDef="let employee"> {{employee.phone2}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Role">
+            <th mat-header-cell *matHeaderCellDef> Role </th>
+            <td mat-cell *matCellDef="let employee"> {{employee.role}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Notes">
+            <th mat-header-cell *matHeaderCellDef> Notes </th>
+            <td mat-cell *matCellDef="let employee"> {{employee.notes}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="id Card">
+            <th mat-header-cell *matHeaderCellDef> id Card </th>
+            <td mat-cell *matCellDef="let employee"> {{employee.idCard}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Thumbnail">
+            <th mat-header-cell *matHeaderCellDef> Thumbnail </th>
+            <td mat-cell *matCellDef="let employee"> {{employee.photo}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Update">
+            <th mat-header-cell *matHeaderCellDef> Update </th>
+            <td mat-cell *matCellDef="let employee"><a routerLink="/employees/edit/{{employee.id}}">
+                <img src="/assets/images/updateEmployee.png" class="updateImage">
+            </a></td>
+        </ng-container>
+
+        <ng-container matColumnDef="Delete">
+            <th mat-header-cell *matHeaderCellDef> Delete </th>
+            <td mat-cell *matCellDef="let employee"> {{employee.symbol}} </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+    </table>
+
+</div> -->
+
+<div >
+    <table>
+        <tr *ngIf="employees">
+            <th>שם פרטי</th>
+            <th>שם משפחה</th>
+            <th>תפקיד</th>
+            <th>Birth Date</th>
+            <th>Hire Date</th>
+            <th>Adress</th>
+            <th>Postal Code</th>
+            <th>Phone 1</th>
+            <th>Phone 2</th>
+            <th>הרשאת גישה</th>
+            <!-- <th>Notes</th>
+            <th>id Card</th> -->
+            <th>תמונה</th>
+            <th>ערוך</th>
+            <th>מחק</th>
+        </tr>
+        <tr *ngFor="let e of employees">
+            <td>{{e.firstName}}</td>
+            <td>{{e.lastName}}</td>
+            <td>{{e.title}}</td>
+            <td>{{e.birthDate}}</td>
+            <td>{{e.hireDate}}</td>
+            <td>{{e.adress}}</td>
+            <td>{{e.postalCode}}</td>
+            <td>{{e.phone1}}</td>
+            <td>{{e.phone2}}</td>
+            <td>{{e.role}}</td>
+            <!-- <td>{{e.notes}}</td>
+            <td>{{e.idCard}}</td> -->
+            <td>
+                <img class="img-emp" [src]=e.imageFileName>
+            </td>
+            <td>
+                <a routerLink="/employees/edit/{{e.employeeId}}">
+                    <img src="../../../assets/images/edit.jpg" class="updateImage">
+                </a>
+            </td>
+            <td><img src="../../../assets/icons/delete-icon.jpg" class="deleteImage" (click)="deleteEmployee(e.employeeId)"></td>
+        </tr>
+    </table>
+</div>
+
+<img #preview class="preview">

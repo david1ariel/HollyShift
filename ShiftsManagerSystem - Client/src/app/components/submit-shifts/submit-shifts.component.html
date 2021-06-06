@@ -1,0 +1,50 @@
+<div ngClass="outer">
+  <div class="head-title">
+    <h1>אלו משמרות היית מעדיף?</h1>
+  </div>
+
+  <h3>לוח משמרות החל מתאריך:</h3>
+  <div>
+    <input type="date" [(ngModel)]="strCalendarStartDate">
+    <button (click)="showShiftsPerDate()">הצג</button>
+  </div>
+
+  <div ngClass="table-container">
+    <table *ngIf="employeesPerShiftTypesForWeek" ngClass="table">
+      <tr ngClass="no-border-tr">
+        <th ngClass="noBorder"></th>
+        <th *ngFor="let item of employeesPerShiftTypesForWeek[0]">
+          {{item.shift.startTime | date :'EEEE' : undefined : 'he'}}<br>
+          {{item.shift.startTime | hebWeekDay}}<br>
+        </th>
+      </tr>
+
+      <tr *ngFor="let item of [].constructor(relevantShiftTypes.length); let i = index">
+        <th >{{relevantShiftTypes[i].typeTitle}}</th>
+        <ng-container *ngFor="let item of shiftsAvailabilities[i]; index as j">
+          <td (click)="markShift(i,j)">
+            <ng-container *ngIf="employeesPerShiftTypesForWeek">
+              <div *ngFor="let emp of employeesPerShiftTypesForWeek[i][j].employees">
+                {{emp.firstName}}
+              </div>
+            </ng-container>
+            {{convertBooleanToMark(item.isAvailable)}}
+          </td>
+        </ng-container>
+      </tr>
+    </table>
+
+    <div ngClass="browsing-buttons">
+      <div ngClass="prevous-button">
+        <button (click)="showPrevousWeek()">שבוע קודם</button>
+      </div>
+      <div ngClass="next-button">
+        <button (click)="showNextWeek()">שבוע הבא</button>
+      </div>
+    </div>
+
+  </div>
+
+  <button mat-raised-button ngClass="submitButton" (click)="submitShifts()">שמור העדפות</button>
+  <button mat-raised-button ngClass="clearButton" (click)="clear()">נקה העדפות</button>
+</div>

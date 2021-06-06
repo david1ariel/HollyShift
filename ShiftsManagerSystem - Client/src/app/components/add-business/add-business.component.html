@@ -1,0 +1,60 @@
+<h2>
+    Add New Business
+</h2>
+<form #formInfo="ngForm">
+
+    <mat-form-field>
+        <input matInput type="text" placeholder="Business Name" name="businessName" [(ngModel)]="business.businessName" required
+            #businessNameInfo="ngModel">
+    </mat-form-field>
+    <span *ngIf="businessNameInfo.errors?.required && businessNameInfo.touched">Missing Business Name</span>
+    <br>
+
+    <mat-form-field>
+        <input matInput type="text" placeholder="Adress" name="adress" [(ngModel)]="business.adress" required
+            #adressInfo="ngModel">
+    </mat-form-field>
+    <span *ngIf="adressInfo.errors?.required && adressInfo.touched">Missing Adress</span>
+    <br>
+
+    <mat-form-field>
+        <input matInput type="text" placeholder="Line Of Business" name="lineOfBusiness" [(ngModel)]="business.lineOfBusiness" 
+            #lineOfBusinessInfo="ngModel">
+    </mat-form-field>
+    <span *ngIf="lineOfBusinessInfo.errors?.required && lineOfBusinessInfo.touched">Missing title</span>
+    <br>
+
+    <mat-form-field>
+        <input matInput type="text" placeholder="Manager Name" name="managerName" [(ngModel)]="business.managerName" 
+             #managerNameInfo="ngModel">
+    </mat-form-field>
+    <span *ngIf="managerNameInfo.errors?.required && managerNameInfo.touched">Missing birth date</span>
+    <br>
+
+    <mat-form-field>
+        <input matInput type="tel" placeholder="Phone" name="phone" [(ngModel)]="business.phone" 
+             #phoneInfo="ngModel">
+    </mat-form-field>
+    <span *ngIf="phoneInfo.errors?.required && phoneInfo.touched">Missing hire date</span>
+    <br>
+
+    <mat-form-field>
+        <input matInput type="text" placeholder="Contact Name" name="contactName" [(ngModel)]="business.contactName" 
+            #contactNameInfo="ngModel">
+    </mat-form-field>
+    <span *ngIf="contactNameInfo.errors?.required && contactNameInfo.touched">Missing adress</span>
+    <br>
+
+    <mat-form-field>
+        <input matInput type="tel" placeholder="Contact Phone" name="contactPhone" [(ngModel)]="business.contactPhone"
+             #contactPhoneInfo="ngModel">
+    </mat-form-field>
+    <span *ngIf="contactPhoneInfo.errors?.required && contactPhoneInfo.touched">Missing postal code</span>
+    <br>
+    <br>
+
+    <button mat-button [disabled]="formInfo.form.invalid" (click)="addBusiness()">add</button>
+    <br>
+
+</form>
+<hr>

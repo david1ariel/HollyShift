@@ -1,0 +1,123 @@
+<div>
+  <h2>
+    הוספת עובד חדש
+  </h2>
+  <form #formInfo="ngForm">
+    <div class="container">
+      <div class="row2">
+        <mat-form-field>
+          <input matInput type="text" placeholder="שם פרטי" name="firstName" [(ngModel)]="employee.firstName" required
+            #firstNameInfo="ngModel">
+        </mat-form-field>
+        <span *ngIf="firstNameInfo.errors?.required && firstNameInfo.touched">Missing first name</span>
+        <br>
+
+        <mat-form-field>
+          <input matInput type="text" placeholder="שם משפחה" name="lastName" [(ngModel)]="employee.lastName" required
+            #lastNameInfo="ngModel">
+        </mat-form-field>
+        <span *ngIf="lastNameInfo.errors?.required && lastNameInfo.touched">Missing last name</span>
+        <br>
+
+        <mat-form-field>
+          <input matInput type="text" placeholder="תפקיד" name="title" [(ngModel)]="employee.title"
+            #titleInfo="ngModel">
+        </mat-form-field>
+        <span *ngIf="titleInfo.errors?.required && titleInfo.touched">Missing title</span>
+        <br>
+
+        <mat-form-field>
+          <input matInput type="date" placeholder="תאריך לידה" name="birthDate" [(ngModel)]="employee.birthDate"
+            #birthDateInfo="ngModel">
+        </mat-form-field>
+        <span *ngIf="birthDateInfo.errors?.required && birthDateInfo.touched">Missing birth date</span>
+        <br>
+
+        <mat-form-field>
+          <input matInput type="date" placeholder="התחלת עבודה" name="hireDate" [(ngModel)]="employee.hireDate"
+            #hireDateInfo="ngModel">
+        </mat-form-field>
+        <span *ngIf="hireDateInfo.errors?.required && hireDateInfo.touched">Missing hire date</span>
+        <br>
+
+        <mat-form-field>
+          <input matInput type="text" placeholder="כתובת" name="adress" [(ngModel)]="employee.adress"
+            #adressInfo="ngModel">
+        </mat-form-field>
+        <span *ngIf="adressInfo.errors?.required && adressInfo.touched">Missing adress</span>
+        <br>
+
+        <input #imageBox type="file" accept="image/*" (change)="displayPreview($event.target.files[0])">
+        <button mat-raised-button type="button" (click)="imageBox.click()">העלה תמונה</button>
+        <br><br>
+
+        <ng-container *ngIf="preview">
+          <img src="{{preview}}">
+          <br><br>
+        </ng-container>
+
+      </div>
+
+      <div class="row1">
+        <mat-form-field>
+          <input matInput type="text" placeholder="מיקוד" name="postalCode" [(ngModel)]="employee.postalCode"
+            #postalCodeInfo="ngModel">
+        </mat-form-field>
+        <span *ngIf="postalCodeInfo.errors?.required && postalCodeInfo.touched">Missing postal code</span>
+        <br>
+
+        <mat-form-field>
+          <input matInput type="tel" placeholder="טלפון 1" name="phone1" [(ngModel)]="employee.phone1"
+            #phone1Info="ngModel">
+        </mat-form-field>
+        <span *ngIf="phone1Info.errors?.required && phone1Info.touched">Missing phone</span>
+        <br>
+
+        <mat-form-field>
+          <input matInput type="tel" placeholder="טלפון 2" name="phone2" [(ngModel)]="employee.phone2"
+            #phone2Info="ngModel">
+        </mat-form-field>
+        <br>
+
+
+
+        <mat-form-field>
+          <input matInput type="text" placeholder="שם משתמש" name="username" [(ngModel)]="employee.username" required
+            #usernameInfo="ngModel">
+        </mat-form-field>
+        <span *ngIf="usernameInfo.errors?.required && usernameInfo.touched">Missing username</span>
+        <br>
+
+        <mat-form-field>
+          <input matInput type="password" placeholder="סיסמה" name="password" [(ngModel)]="employee.password" required
+            #passwordInfo="ngModel">
+        </mat-form-field>
+        <span *ngIf="passwordInfo.errors?.required && passwordInfo.touched">Missing password</span>
+        <br>
+
+        <mat-form-field appearance="fill">
+          <mat-label>הרשאת גישה</mat-label>
+          <mat-select [(ngModel)]="employee.role" name="role">
+            <mat-option>ללא</mat-option>
+            <mat-option value="משתמש" (onSelectionChange)="changeEmployeeRole($event)">User</mat-option>
+            <mat-option value="מנהל" (onSelectionChange)="changeEmployeeRole($event)">Manager</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <br>
+
+      </div>
+    </div>
+
+
+
+
+    <br>
+
+
+    <button mat-button [disabled]="formInfo.form.invalid" (click)="register()">צור</button>
+    <br>
+
+  </form>
+  <hr>
+
+</div>

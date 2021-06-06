@@ -1,0 +1,85 @@
+<h1>פרטי כניסה, בבקשה.</h1><br><br>
+
+<form #formInfo="ngForm">
+
+
+
+
+  <input type="text" placeholder="שם משתמש" name="username" [(ngModel)]="credentials.username" required>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  <input type="password" placeholder="סיסמה" name="password" [(ngModel)]="credentials.password" required>
+
+
+  <br>
+  <br>
+
+
+  <button class="btn-enter" [disabled]="formInfo.form.invalid" (click)="login()">כניסה</button>
+  <br><br><br>
+  <button class="btn-enter" (click)="forgotPasswordClicked(forgotPasswordRef)">שכחתי סיסמה</button>
+  <br><br><br>
+  <a routerLink="/admin/add-business">הרשמה חדשה למערכת</a>
+
+</form>
+
+<ng-template #forgotPasswordRef>
+  <i class="material-icons icon-close" matDialogClose>close</i>
+  <h1 mat-dialog-title>שכחת את הסיסמה?</h1>
+<div mat-dialog-content>הזן את כתובת האימייל אליה משוייך חשבון זה</div>
+<input type="text" [(ngModel)]="emailToSendVerificationCode">
+<div mat-dialog-actions>
+  <button mat-raised-button color="primary" mat-dialog-close (click)="getVerificationCodeFromServer(enterVerificationCode, emailError)">אישור</button>
+</div>
+
+</ng-template>
+
+<ng-template #enterVerificationCode>
+  <i class="material-icons icon-close" (click)="onCloseDialog()">close</i>
+  <h1 mat-dialog-title>יש להזין את קוד האימות שקיבלת בדוא"ל</h1>
+  <input type="text" [(ngModel)]="verificationCode">
+  <button mat-raised-button color="primary" (click)="verifyCode(chooseNewPassword, codeError); onCloseDialog()">אישור</button>
+</ng-template>
+
+<ng-template #chooseNewPassword>
+  <i class="material-icons icon-close" (click)="onCloseDialog()">close</i>
+  <p mat-dialog-title>בחר סיסמה חדשה:</p>
+  <input type="text" [(ngModel)]="newPassword">
+  <p mat-dialog-content>הכנס שוב את הסיסמה:</p>
+  <input type="text" [(ngModel)]="newPasswordCheck">
+  <button mat-raised-button color="primary"  (click)="checkPassword(passwordChangedSuccessfully, passwordsNotMatch); onCloseDialog()">סיום</button>
+</ng-template>
+
+<ng-template #emailError>
+  <i class="material-icons icon-close" (click)="onCloseDialog()">close</i>
+  <h1 mat-dialog-title>שגיאה</h1>
+<div mat-dialog-content>כתובת האימייל לא רשומה במערכת</div>
+<div mat-dialog-actions>
+  <button mat-raised-button color="primary" (click)="onCloseDialog()">אישור</button>
+</div>
+</ng-template>
+
+<ng-template #codeError>
+  <i class="material-icons icon-close" (click)="onCloseDialog()">close</i>
+  <h1 mat-dialog-title>שגיאה</h1>
+<div mat-dialog-content>הזנתם קוד שגוי</div>
+<div mat-dialog-actions>
+  <button mat-raised-button color="primary" (click)="onCloseDialog()">אישור</button>
+</div>
+</ng-template>
+
+<ng-template #passwordsNotMatch>
+  <i class="material-icons icon-close" (click)="onCloseDialog()">close</i>
+  <h1 mat-dialog-title>שגיאה</h1>
+<div mat-dialog-content>הסיסמאות אינן תואמות</div>
+<div mat-dialog-actions>
+  <button mat-raised-button color="primary" (click)="onCloseDialog()">אישור</button>
+</div>
+</ng-template>
+
+<ng-template #passwordChangedSuccessfully>
+  <i class="material-icons icon-close" (click)="onCloseDialog()">close</i>
+  <h1 mat-dialog-title>הסיסמה שונתה בהצלחה!</h1>
+<div mat-dialog-actions>
+  <button mat-raised-button color="primary" (click)="onCloseDialog()">אישור</button>
+</div>
+</ng-template>

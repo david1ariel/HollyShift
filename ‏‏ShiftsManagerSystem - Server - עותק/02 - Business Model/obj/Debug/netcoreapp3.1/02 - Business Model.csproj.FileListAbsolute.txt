@@ -1,0 +1,60 @@
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model.deps.json
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.csprojAssemblyReference.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.AssemblyInfo.cs
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\02 - Business Model\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\02 - Business Model\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\Shifty\Shifty\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.csproj.CopyComplete
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model.deps.json
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\02 - Business Model\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\02 - Business Model\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.csprojAssemblyReference.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.AssemblyInfo.cs
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.csproj.CopyComplete
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.dll
+C:\Users\user\OneDrive\Programming studies\Tomedia Web Team\HollyShift-master (1)\HollyShift-master\Shifty\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.pdb
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model.deps.json
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model.dll
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model.pdb
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.csprojAssemblyReference.cache
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.AssemblyInfoInputs.cache
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.AssemblyInfo.cs
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.csproj.CopyComplete
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.dll
+C:\Users\david\OneDrive\Documents\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.pdb
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model.deps.json
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model.dll
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model.pdb
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.csprojAssemblyReference.cache
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.AssemblyInfoInputs.cache
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.AssemblyInfo.cs
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.csproj.CopyComplete
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.dll
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\ShiftsManagerSystem - Server\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.pdb
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.csprojAssemblyReference.cache
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.AssemblyInfoInputs.cache
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.AssemblyInfo.cs
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model.deps.json
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model.dll
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\02 - Business Model\bin\Debug\netcoreapp3.1\02 - Business Model.pdb
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\02 - Business Model\bin\Debug\netcoreapp3.1\01 - Data Access Layer.dll
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\02 - Business Model\bin\Debug\netcoreapp3.1\01 - Data Access Layer.pdb
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.csproj.CopyComplete
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.dll
+C:\Users\david\OneDrive\Documents\Programing\Tomedia Web Team\HollyShift\Shifty\Latest Version\‏‏ShiftsManagerSystem - Server - עותק\02 - Business Model\obj\Debug\netcoreapp3.1\02 - Business Model.pdb

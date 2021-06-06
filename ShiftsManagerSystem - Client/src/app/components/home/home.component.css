@@ -1,0 +1,117 @@
+td{
+  font-family: varelaRound;
+  border: 3px solid  rgb(35, 120, 91);
+  border-radius: 2px;
+  height: 100px;
+  margin: 0;
+  min-width: 160px;
+  box-sizing: border-box;
+  padding: 0%;
+  font-size: x-large;
+  color: rgb(35, 120, 91);
+  /* display: grid; */
+  /* grid-template-columns: 2 1fr; */
+}
+
+/* td:hover {
+background-color: rgb(25, 219, 208);
+} */
+
+th{
+font-family: varelaRound;
+font-size: large;
+  padding: 10px;
+  height: 30px;
+}
+
+/* .invisible{
+  border: 0;
+} */
+
+/* .rotate{
+  transform: rotate(90deg);
+  height: 100px;
+  width: 80px;
+  border: 0;
+} */
+
+.outer{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.table-container{
+width: fit-content;
+margin: auto;
+margin-top: 50px;
+}
+
+table{
+margin: auto;
+}
+
+/* .noBorder{
+  border: 0;
+} */
+
+table{
+  margin: 30px;
+  border-collapse: collapse;
+  border-radius: 2px;
+}
+
+.submitButton{
+  color: white;
+  background-color:  rgb(25, 219, 208);
+}
+
+.clearButton{
+  color: white;
+  background-color: black;
+}
+
+button{
+font-family: varelaRound;
+font-size: large;
+  width: 120px;
+  height: 40px;
+  margin: 20px;
+  margin-top: 5px;
+}
+
+.browsing-buttons{
+margin-top: 20px;
+}
+
+.prevous-button{
+float: right;
+}
+
+.next-button{
+float: left;
+}
+
+img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.emp-name{
+  font-size: small;
+}
+
+.emp-outer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.emp-container{
+  background-color: rgb(208, 249, 245);
+  border-radius: 50%;
+  padding: 4px;
+  margin: 5px;
+  /* width: 80px; */
+  /* height: 80px; */
+}
